@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'NEXONFootballGothicBA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicBA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NEXONFootballGothicLA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicLA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'NEXONFootballGothicBA1';
+    overflow: hidden;
+}
+
+h1{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 64px;
+}
+
+h2{
+    margin-left: 40px;
+    font-size: 32px;
+}
+
+label{
+    font-family: 'NEXONFootballGothicLA1';
+    margin-left: 40px;
+}
+
+label#code{
+    font-family: 'NEXONFootballGothicBA1';
+    margin: 40px;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.gameContainer{
+    width: 720px;
+    height: 480px;
+    margin-top: 100px;
+    box-shadow: 4px 4px 12px 0.3px rgba(128, 128, 128, 0.459);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.startBtn{
+    color: black;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+.helpBtn{
+    color: black;
+    margin-left: 40px;
+    font-size: 24px;
+}
