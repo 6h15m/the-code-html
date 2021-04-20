@@ -1,71 +1,85 @@
 @font-face {
-    font-family: 'NEXONFootballGothicBA1';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicBA1.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "NEXONFootballGothicBA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicBA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'NEXONFootballGothicLA1';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicLA1.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "NEXONFootballGothicLA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicLA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-body{
-    font-family: 'NEXONFootballGothicBA1';
-    overflow: hidden;
+body {
+  font-family: "NEXONFootballGothicBA1";
+  overflow: hidden;
+  background: black;
 }
 
-h1{
-    margin-left: 40px;
-    margin-bottom: 20px;
-    font-size: 64px;
+h1 {
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 64px;
 }
 
-h2{
-    margin-left: 40px;
-    font-size: 32px;
+h2 {
+  margin-left: 40px;
+  font-size: 32px;
 }
 
-label{
-    font-family: 'NEXONFootballGothicLA1';
-    margin-left: 40px;
+h3 {
+  margin-left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
 }
 
-label#code{
-    font-family: 'NEXONFootballGothicBA1';
-    margin: 40px;
-    font-size: 30px;
+label {
+  font-family: "NEXONFootballGothicLA1";
+  margin-left: 40px;
 }
 
-a{
-    text-decoration: none;
+label#code {
+  font-family: "NEXONFootballGothicBA1";
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
 }
 
-.wrapContainer{
-    display: flex;
-    justify-content: center;
+a {
+  text-decoration: none;
 }
 
-.gameContainer{
-    width: 720px;
-    height: 480px;
-    margin-top: 100px;
-    box-shadow: 4px 4px 12px 0.3px rgba(128, 128, 128, 0.459);
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
+.wrapContainer {
+  display: flex;
+  justify-content: center;
 }
 
-.startBtn{
-    color: black;
-    margin-left: 40px;
-    font-size: 24px;
+.gameContainer {
+  width: 720px;
+  height: 480px;
+  margin-top: 100px;
+  box-shadow: 4px 4px 12px 0.3px rgba(128, 128, 128, 0.459);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: white;
 }
 
-.helpBtn{
-    color: black;
-    margin-left: 40px;
-    font-size: 24px;
+.startBtn {
+  color: black;
+  margin-left: 40px;
+  font-size: 24px;
+}
+
+.helpBtn {
+  color: black;
+  margin-left: 40px;
+  font-size: 24px;
 }
