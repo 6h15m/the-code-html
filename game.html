@@ -14,27 +14,26 @@
     <div class="wrapContainer">
         <div class="gameContainer">
 
-            <h2>Stage 1. 당연한 밤</h2>
-            <h3>key : night</h3>
+            <h2 id="title">Stage 1. 당연한 밤</h2>
+            <h3 id="key">key : night</h3>
             <br>
-            <label id="story">
+            <label id="story1">
                 알 수 없는 불빛에 의지해 걷다 보니 거대한 문이 보인다.<br>
                 문 옆을 보니 오래되어 보이는 작은 스크린이 있다.<br>
                 작은 스크린에는 알파벳이 불규칙하게 적혀 있다.
             </label>
             <label id="code">
-                rem
+                dsyl
             </label>
 
-            <label id="story">
+            <label id="story2">
                 무슨 뜻인지는 모르겠지만 왠지 영어를 해석하면 문을 열 수 있다는 생각이 든다.
             </label>
-            <br>
-            <br>
-            <input id="input" type="text" placeholder="the code."></input>
-            <br>
-            <button id="submitButton" onclick="AnswerSubmitted();">Enter</button>
-            <button id="hintButton" onclick="Hint();">Hint</button>
+            <center>
+                <input id="input" type="text" placeholder="the code." onkeyup="enterkey();"></input>
+                <br>
+                <button id="hintButton" onclick="Hint();">Hint</button>
+            </center>
         </div>
     </div>
     <script type="text/javascript" src="script/plugin.js"></script>

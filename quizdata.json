@@ -1,0 +1,24 @@
+let questions = [
+  {
+    number: 2,
+    title: "Stage 2. 신",
+    key: "is",
+    story1:
+      "내가 문을 열었던가?<br>기억하는 한 해석한 글자를 입으로 내뱉었을 뿐인데, 여긴 전혀 다른 공간이다.<br>여전히 어두운 건 마찬가지다. 왜인지 주변이 어그러지는 것 같기도 하고.",
+    code: "AJDHCPCBPG",
+    story2: "또 알 수 없는 단어다. 이번에도 지나왔던 문처럼 해석하면 되려나.",
+    answer: "REM",
+  },
+  {
+    number: 3,
+    title: "Stage 3. 의무감",
+    key: "coming",
+    story1:
+      "내가 문을 열었던가?<br>기억하는 한 해석한 글자를 입으로 내뱉었을 뿐인데, 여긴 전혀 다른 공간이다.<br>여전히 어두운 건 마찬가지다. 왜인지 주변이 어그러지는 것 같기도 하고.",
+    code: "JVQEIANVCWBGYI",
+    story2: "또 알 수 없는 단어다. 이번에도 지나왔던 문처럼 해석하면 되려나.",
+    answer: "LIGHTSABER",
+  }
+]
+
+export default quizdata;
