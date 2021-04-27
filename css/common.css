@@ -41,6 +41,7 @@ h3 {
 label {
   font-family: "NEXONFootballGothicLA1";
   margin-left: 40px;
+  margin-right: 40px;
 }
 
 label#code {
@@ -72,13 +73,7 @@ a {
   background-color: white;
 }
 
-.startBtn {
-  color: black;
-  margin-left: 40px;
-  font-size: 24px;
-}
-
-.helpBtn {
+.mainBtn {
   color: black;
   margin-left: 40px;
   font-size: 24px;

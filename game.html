@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>the code.</title>
+    <title>game | the code.</title>
     <link rel="stylesheet" href="css/common.css" type="text/css" />
     <link rel="stylesheet" href="css/game.css" type="text/css" />
 </head>
@@ -29,11 +29,10 @@
             <label id="story2">
                 무슨 뜻인지는 모르겠지만 왠지 영어를 해석하면 문을 열 수 있다는 생각이 든다.
             </label>
-            <center>
+            <div id="inputContainer">
                 <input id="input" type="text" placeholder="the code." onkeyup="enterkey();"></input>
-                <br>
-                <button id="hintButton" onclick="Hint();">Hint</button>
-            </center>
+                <button id="hintButton" onclick="Hint();"></button>
+            </div>
         </div>
     </div>
     <script type="text/javascript" src="script/plugin.js"></script>

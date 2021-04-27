@@ -192,15 +192,15 @@ $("#regenerateKeytable").click(function () {
 $("#encipher").click(function () {
   var digraph = makeDigraph($("#en").val());
   if (!digraph) alert("Bad entry");
-  $("#en").val(digraph.join(" "));
+  $("#en").val(digraph.join(""));
   var cipher = encipher(digraph);
-  $("#de").val(cipher.join(" "));
+  $("#de").val(cipher.join(""));
 });
 
 $("#decipher").click(function () {
   var digraph = makeDigraph($("#de").val());
   if (!digraph) alert("Bad entry");
-  $("#de").val(digraph.join(" "));
+  $("#de").val(digraph.join(""));
   var plaintext = decipher(digraph);
-  $("#en").val(plaintext.join(" ").toLowerCase());
+  $("#en").val(plaintext.join("").toLowerCase());
 });
