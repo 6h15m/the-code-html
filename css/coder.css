@@ -1,18 +1,34 @@
-#keyword{
-    width: 500px;
-    margin-left: 40px;
+button {
+  font-family: "NEXONFootballGothicLA1";
+  font-size: 14px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  border: none;
 }
 
-#generateKeytable{
-    width: 500px;
-    margin-left: 40px;
+#keyword {
+  font-family: "NEXONFootballGothicLA1";
+  background: url("../img/input-box.png") no-repeat;
+  width: 180px;
+  height: 27px;
+  border: none;
+  outline: 0;
 }
 
-#regenerateKeytable{
-    width: 500px;
-    margin-left: 40px;
+::placeholder {
+  font-family: "NEXONFootballGothicLA1";
+  opacity: 1;
 }
 
-span{
-    margin-left: 40px; 
+:-ms-input-placeholder {
+  font-family: "NEXONFootballGothicLA1";
+}
+
+::-ms-input-placeholder {
+  font-family: "NEXONFootballGothicLA1";
+}
+
+textarea {
+  font-family: "NEXONFootballGothicLA1";
 }

@@ -151,7 +151,7 @@ function makeDigraph(str) {
 }
 
 function generateKeyTable(keystring) {
-  if (!keystring) keystring = "PLAYFAIRCIPHER";
+  if (!keystring) keystring = "EXAMPLE";
 
   keystring = keystring.toUpperCase();
   keystring = keystring.replace(/\W+/g, "");
@@ -191,16 +191,16 @@ $("#regenerateKeytable").click(function () {
 
 $("#encipher").click(function () {
   var digraph = makeDigraph($("#en").val());
-  if (!digraph) alert("Bad entry");
-  $("#en").val(digraph.join(""));
+  if (!digraph) alert("잘못된 접근입니다.");
+  $("#en").val(digraph.join(" "));
   var cipher = encipher(digraph);
-  $("#de").val(cipher.join(""));
+  $("#de").val(cipher.join(" "));
 });
 
 $("#decipher").click(function () {
   var digraph = makeDigraph($("#de").val());
-  if (!digraph) alert("Bad entry");
-  $("#de").val(digraph.join(""));
+  if (!digraph) alert("잘못된 접근입니다.");
+  $("#de").val(digraph.join(" "));
   var plaintext = decipher(digraph);
-  $("#en").val(plaintext.join("").toLowerCase());
+  $("#en").val(plaintext.join(" ").toLowerCase());
 });

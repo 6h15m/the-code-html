@@ -38,6 +38,20 @@ h3 {
   font-size: 20px;
 }
 
+h5 {
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: black;
+  opacity: 20%;
+}
+
+h5:hover {
+  opacity: 100%;
+}
+
 label {
   font-family: "NEXONFootballGothicLA1";
   margin-left: 40px;

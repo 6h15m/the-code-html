@@ -13,27 +13,30 @@
 <body>
   <div class="wrapContainer">
     <div class="gameContainer">
-      <input id="keyword" value="ASSASSINATOR"></input>
-      <br />
-      <button id="generateKeytable">생성</button>
-      <button id="regenerateKeytable" style="display: none">
-        재생성
-      </button>
-      <br />
-      <span id="AfterGen" style="display: none">
-        <div id="keyTable"></div>
-        <textarea id="en" cols="50" rows="5"></textarea><br />
-        <button id="encipher">
-          암호화
+      <a href="index.html">
+        <h5>&#60; back</h5>
+      </a>
+      <center>
+        <input id="keyword" value="EXAMPLE"></input>
+        <button id="generateKeytable">생성</button>
+        <button id="regenerateKeytable" style="display: none">
+          재생성
         </button>
-        <br />
-        <br />
-        <textarea id="de" cols="50" rows="5"></textarea>
-        <br />
-        <button id="decipher">
-          복호화
-        </button>
-      </span>
+        <span id="AfterGen" style="display: none">
+          <div id="keyTable"></div>
+          <textarea id="en" cols="40" rows="3"></textarea><br />
+          <button id="encipher">
+            암호화
+          </button>
+          <br />
+          <br />
+          <textarea id="de" cols="40" rows="3"></textarea>
+          <br />
+          <button id="decipher">
+            복호화
+          </button>
+        </span>
+      </center>
     </div>
   </div>
 
